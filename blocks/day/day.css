@@ -5,3 +5,9 @@
   letter-spacing: 5px;
   min-width: 450px;
 }
+
+@media screen and (max-width: 460px) {
+  .day {
+    font-size: 18px;
+  }
+}

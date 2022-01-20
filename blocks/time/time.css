@@ -2,4 +2,11 @@
   max-width: max-content;
   padding: 5px 8px 5px 8px;
   font-weight: 900;
+  text-align: center;
+}
+
+@media screen and (max-width: 460px) {
+  .time {
+    max-width: 200px;
+  }
 }
