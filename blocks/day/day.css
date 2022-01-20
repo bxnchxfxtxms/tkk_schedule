@@ -3,11 +3,14 @@
   font-weight: 900;
   font-size: 25px;
   letter-spacing: 5px;
-  min-width: 450px;
+  max-width: 450px;
+  width: 100%;
 }
 
 @media screen and (max-width: 460px) {
   .day {
+    width: auto;
     font-size: 18px;
+    max-width: 300px;
   }
 }

@@ -1,4 +1,13 @@
 .subject {
   text-align: center;
-  min-width: 300px;
+  max-width: 298px;
+  width: 100%;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 460px) {
+  .subject {
+    width: 38vw;
+    font-size: 12px;
+  }
 }

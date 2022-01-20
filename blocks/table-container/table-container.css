@@ -1,18 +1,24 @@
 .table-container {
   display: grid;
   gap: 5px;
-  grid-template-columns: repeat(3, fit-content(460px));
+  grid-template-columns: repeat(3, 460px);
   max-width: 1400px;
 }
 
 @media screen and (max-width: 1400px) {
   .table-container {
-    grid-template-columns: repeat(2, fit-content(460px));
+    grid-template-columns: repeat(2, 460px);
   }
 }
 
 @media screen and (max-width: 930px) {
   .table-container {
-    grid-template-columns: repeat(1, fit-content(460px));
+    grid-template-columns: repeat(1, 460px);
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .table-container {
+    grid-template-columns: repeat(1, 300px);
   }
 }
