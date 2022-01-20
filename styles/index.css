@@ -1,0 +1,26 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/day/day.css);
+@import url(../blocks/time/time.css);
+@import url(../blocks/subject/subject.css);
+
+@import url(../blocks/table-container/table-container.css);
+
+@import url(../blocks/row/row.css);
+@import url(../blocks/row/_type/row_type_even.css);
+@import url(../blocks/row/_type/row_type_free.css);
+@import url(../blocks/row/_type/row_type_main.css);
+@import url(../blocks/row/_type/row_type_odd.css);
+
+table {
+    border: 1px solid #000;
+    margin: auto;
+    display: inline-block;
+}
+
+caption {
+    font-size: 45px;
+}
