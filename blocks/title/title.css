@@ -2,6 +2,7 @@
   max-width: 92%;
   font-size: 40px;
   text-align: center;
+  margin: 17px auto;
 }
 
 @media screen and (max-width: 690px) {
