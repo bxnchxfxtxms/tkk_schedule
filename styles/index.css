@@ -13,9 +13,9 @@
 
 @import url(../blocks/row/row.css);
 @import url(../blocks/row/_type/row_type_even.css);
-@import url(../blocks/row/_type/row_type_free.css);
 @import url(../blocks/row/_type/row_type_main.css);
 @import url(../blocks/row/_type/row_type_odd.css);
+@import url(../blocks/row/_type/row_type_free.css);
 
 table {
     border: 1px solid #000;
