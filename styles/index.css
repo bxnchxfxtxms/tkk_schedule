@@ -16,6 +16,7 @@
 @import url(../blocks/row/_type/row_type_main.css);
 @import url(../blocks/row/_type/row_type_odd.css);
 @import url(../blocks/row/_type/row_type_free.css);
+@import url(../blocks/row/_type/row_type_error.css);
 
 table {
     border: 1px solid #000;
